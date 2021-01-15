@@ -62,11 +62,11 @@ body {
 
 .form--container input {
   padding: 0 28px;
-  margin: 16px 0;
+  margin: 16px 0 8px 0;
   width: 300px;
   height: 42px;
   font-size: 14px;
-  border: solid 1px var(--Blue);
+  border: solid 1px var(--Pale-Blue);
   border-radius: 24px;
   outline: none;
   color: var(--Very-Dark-Blue);
@@ -79,6 +79,7 @@ body {
 
 .form--container button {
   padding: 0 16px;
+  margin: 16px 0 0 0;
   height: 42px;
   width: 300px;
   font-size: 12px;
@@ -103,12 +104,6 @@ body {
   margin: 0 auto;
   width: 90%;
   max-width: 320px;
-}
-
-.footer {
-  /* position: absolute;
-  bottom: 0;
-  width: 100%; */
 }
 
 .footer .footer--rrss {
@@ -139,4 +134,15 @@ body {
   text-align: center;
   font-size: 12px;
   color: var(--Gray);
+}
+
+.warn--container {
+  width: 100%;
+  text-align: center;
+}
+
+.warn {
+  /* padding: 0 0 0 32px; */
+  color: var(--Light-Red);
+  font-size: 12px;
 }

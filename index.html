@@ -28,9 +28,9 @@
         <h1 class="description--title">We are launching <span>soon!</span></h1>
         <h2 class="description--subtitle">Subscribe and get notified</h2>
         <!-- Form -->
-        <form class="form--container">
-          <input placeholder="Your email address..." type="email" />
-          <button>Notify Me</button>
+        <form onsubmit="event.preventDefault()" class="form--container">
+          <input id="input" placeholder="Your email address..." type="email" />
+          <button onclick="validateMail()" id="btn">Notify Me</button>
         </form>
       </section>
       <div class="hero--container">
