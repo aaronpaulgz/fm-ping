@@ -25,7 +25,7 @@ body {
   flex-direction: column;
   margin: 0 auto;
   padding: 0 8px;
-  max-width: 375;
+  max-width: 375px;
   font-family: var(--Font);
   color: var(--Very-Dark-Blue);
 }
@@ -145,4 +145,49 @@ body {
   /* padding: 0 0 0 32px; */
   color: var(--Light-Red);
   font-size: 12px;
+}
+
+@media screen and (min-width: 1020px) {
+  .main--container {
+    width: 820px;
+    max-width: 900px;
+  }
+  .main--logo {
+    margin: 42px 0;
+  }
+  .description--title {
+    font-size: 2.4rem;
+  }
+  .description--subtitle {
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .form--container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .form--container input {
+    margin: 0;
+  }
+
+  .form--container button {
+    margin: 0 8px;
+    max-width: 120px;
+  }
+  .hero--container img {
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .warn--container {
+    text-align: left;
+    padding: 0 0 0 22px;
+  }
+
+  .warn {
+    margin-top: 8px;
+  }
 }

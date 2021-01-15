@@ -1,4 +1,5 @@
 let $btn = document.getElementById("btn");
+let $input = document.getElementById("input");
 
 const validateMail = () => {
   let $input = document.getElementById("input");
@@ -11,3 +12,8 @@ const validateMail = () => {
   } else {
   }
 };
+
+$input.addEventListener("focus", () => {
+  $input.style.border = "";
+  $input.nextElementSibling.style.display = "none";
+});
